@@ -12,7 +12,15 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
 	title: "Threads",
-	description: "A Next.js 13 Meta Threads Application",
+	description: "A Next.js 13 Meta Threads Copy using MERN",
+	author: "ikigami-sama",
+	themeColor: "black",
+	openGraph: {
+		title: "Threads Clone App",
+		description: "A Next.js 13 Meta Threads Copy using MERN",
+		url: "https://next-thread-clone.vercel.app",
+		images: ["https://next-thread-clone.vercel.app/img/main-banner.png"],
+	},
 };
 export default function RootLayout({
 	children,
